@@ -8,6 +8,13 @@ public class Main {
         SmartDevice.SmartPhone smartPhone = new SmartDevice.SmartPhone();
         SmartDevice.SmartWatch smartWatch = new SmartDevice.SmartWatch();
 
+        //-------------------------------------------------
+
+        CocheCRUD cocheCRUD = new CocheCRUDImpl();
+        cocheCRUD.save();
+        cocheCRUD.findAll();
+        cocheCRUD.delete();
+
     }
 
 }
