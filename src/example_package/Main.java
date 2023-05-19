@@ -11,6 +11,10 @@ public class Main {
 
         IvaCalculator calculator = new IvaCalculator();
         System.out.println(calculator.calculate(100));
+
+        String[] arreglo = {"Hola", "este", "es", "un", "texto", "de", "prueba"};
+        TextCreator creator = new TextCreator();
+        System.out.println(creator.createFinalString(arreglo));
     }
 
     private static int age = 23;
