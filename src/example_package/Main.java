@@ -8,6 +8,9 @@ public class Main {
         System.out.println(price);
         System.out.println(value);
         System.out.println(name);
+
+        IvaCalculator calculator = new IvaCalculator();
+        System.out.println(calculator.calculate(100));
     }
 
     private static int age = 23;
